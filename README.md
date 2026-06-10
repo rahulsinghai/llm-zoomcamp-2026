@@ -1,3 +1,27 @@
+# LLM Zoomcamp 2026
+
+1. Fork main repository: https://github.com/DataTalksClub/llm-zoomcamp
+2. Code > Codespaces > New codespace > Create
+3. Configure SSH based on this gist: https://gist.github.com/alpharomercoma/72cfe5f02d71107ad1eb6920b3a7f79d
+4. Open Cursor and connect to the Remote SSH host codespace.
+5. Open folder `/workspace/llm-zoomcamp`
+6. Open terminal and run:
+
+    ```bash
+    cd 01-agentic-rag/code
+    curl -LsSf https://astral.sh/uv/install.sh | sh
+    
+    uv sync
+    ```
+7. Open [Jupyter notebook](./01-agentic-rag/code/notebook.ipynb)
+8. Add a custom Python interpreter by pointing to that `.venv` path. Here's how:
+   1. Open the Command Palette (Ctrl+Shift+P)
+   2. Type "Python: Select Interpreter" and select it
+   3. Choose "Enter interpreter path..."
+   4. Paste: /workspaces/llm-zoomcamp-2026/01-agentic-rag/code/.venv/bin/python3
+
+---
+
 <div align="center">
 
 <img width="80%" src="images/llm-zoomcamp-2026.jpg" alt="LLM Zoomcamp 2026 - Free Course on Building LLM Applications with RAG, Agents, and Vector Search" />
